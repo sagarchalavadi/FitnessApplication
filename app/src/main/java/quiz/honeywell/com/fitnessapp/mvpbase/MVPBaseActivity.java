@@ -17,7 +17,7 @@ public abstract class MVPBaseActivity<V extends MVPContract.View, P extends MVPC
         setContentView(layoutId());
     }
 
-    abstract @LayoutRes int layoutId();
+    public abstract @LayoutRes int layoutId();
 
     @Override
     public void showApiError() {

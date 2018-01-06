@@ -7,12 +7,12 @@ import org.jetbrains.annotations.NotNull;
  */
 
 public class MVPContract {
-    interface View {
+    public interface View {
         void showApiError();
         void showFatalError();
     }
 
-    interface Presenter<V extends View> {
+    public interface Presenter<V extends View> {
         void attachView(@NotNull V view);
         void detachView();
         View getView();
