@@ -7,11 +7,11 @@ import quiz.honeywell.com.fitnessapp.mvpbase.MVPContract;
  */
 
 public class MyFitnessContract {
-    interface View extends MVPContract.View {
+    public interface View extends MVPContract.View {
 
     }
 
-    interface Presenter<V extends View> extends MVPContract.Presenter<V> {
+    public interface Presenter<V extends View> extends MVPContract.Presenter<V> {
 
     }
 }

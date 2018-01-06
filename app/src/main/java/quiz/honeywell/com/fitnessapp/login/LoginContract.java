@@ -7,14 +7,14 @@ import quiz.honeywell.com.fitnessapp.mvpbase.MVPContract;
  */
 
 public class LoginContract {
-    interface View extends MVPContract.View {
+    public interface View extends MVPContract.View {
         String getUserName();
         String getPassword();
         void userNameError(String errorMessage);
         void passwordError(String errorMessage);
     }
 
-    interface Presenter<V extends View> extends MVPContract.Presenter<V> {
+    public interface Presenter<V extends View> extends MVPContract.Presenter<V> {
         void login();
     }
 }

@@ -1,4 +1,4 @@
-package quiz.honeywell.com.fitnessapp.goals;
+package quiz.honeywell.com.fitnessapp.registration;
 
 import quiz.honeywell.com.fitnessapp.mvpbase.MVPContract;
 
@@ -6,7 +6,7 @@ import quiz.honeywell.com.fitnessapp.mvpbase.MVPContract;
  * Created by ADMIN on 1/6/2018.
  */
 
-public class GoalsContract {
+public class RegistrationContract {
     public interface View extends MVPContract.View {
 
     }
