@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".registration.RegistrationActivity"/>
+        <activity android:name=".dashboard.DashboardActivity"/>
         <activity android:name=".myfitness.MyFitnessActivity"/>
         <activity android:name=".events.EventsActivity"/>
         <activity android:name=".coaches.CoachesActivity"/>

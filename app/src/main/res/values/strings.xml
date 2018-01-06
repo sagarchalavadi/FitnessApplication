@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FitnessApp</string>
+    <string name="my_fitness">My Fitness</string>
+    <string name="events">Events</string>
+    <string name="coaches">Coaches</string>
+    <string name="profile">Profile</string>
 </resources>
